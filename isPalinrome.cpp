@@ -16,7 +16,7 @@ int main()
 {
     cout << "enter the string to check for a palindrome" << endl;
     string str;
-    cin >> str;
+    getline(cin, str);
     if (isPalindrome(str)) {
         cout << "the string is a palindrome" << endl;
     }
